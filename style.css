@@ -778,6 +778,14 @@ h4 {
     color: #F3976C!important;
 }
 
+.tc-orange {
+    color: #a42a42!important;
+}
+
+.fw-bold {
+    font-weight: bold;
+}
+
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #FFFFFF!important;
@@ -823,6 +831,31 @@ h4 {
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.webp");
+}
+
+.description {
+    font-size: 22px;
+    margin: auto;
+    width: 65%;
+}
+
+.quote {
+    display: block;
+    margin: auto;
+    quotes: none;
+    font-size: 20px;
+    font-style: italic;
+    width: 85%;
+    color: #313030;
+}
+
+.author {
+    font-style: normal;
+    font-size: initial;
+}
+
+.fs-14 {
+    font-size: 14px;
 }
 
 @media (max-width: 1024px) {
