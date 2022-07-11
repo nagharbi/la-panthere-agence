@@ -704,6 +704,13 @@ p {
     margin: auto auto auto auto;
 }
 
+.container-social {
+    margin: auto;
+    max-width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
 h2 {
     font-size: 22px;
     line-height: 1.4em;
