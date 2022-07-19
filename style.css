@@ -18,6 +18,12 @@ a:hover {
     cursor: pointer;
 }
 
+.img-responsive {
+    max-inline-size: 100%;
+    block-size: auto;
+    object-fit: contain;
+}
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -539,6 +545,7 @@ a[data-lightbox] {
 a[data-lightbox]:hover::before {
     content: "+";
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
+    
     font-size: 32px;
     width: 50px;
     height: 50px;
@@ -901,6 +908,9 @@ h4 {
 }
 
 @media (max-width: 991px) {
+    .img-responsive {
+        aspect-ratio: 2/1;
+    }
     .container {
         width: 100%;
     }
@@ -930,6 +940,12 @@ h4 {
 }
 
 @media (max-width: 767px) {
+    .description{
+        margin-bottom: 20px;
+    }
+    .portfolio-row{
+        margin: auto;
+    }
     .page-container {
         overflow-x: hidden;
         position: relative;
